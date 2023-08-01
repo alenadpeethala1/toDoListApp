@@ -11,6 +11,8 @@
 		BEBAAC4D2A797EAE001031BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAAC4C2A797EAE001031BF /* ContentView.swift */; };
 		BEBAAC4F2A797EB1001031BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBAAC4E2A797EB1001031BF /* Assets.xcassets */; };
 		BEBAAC522A797EB1001031BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBAAC512A797EB1001031BF /* Preview Assets.xcassets */; };
+		BEBAAC592A797ED7001031BF /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAAC582A797ED7001031BF /* ToDoItem.swift */; };
+		BEBAAC5B2A798576001031BF /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAAC5A2A798576001031BF /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BEBAAC4C2A797EAE001031BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEBAAC4E2A797EB1001031BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBAAC512A797EB1001031BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEBAAC582A797ED7001031BF /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BEBAAC5A2A798576001031BF /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BEBAAC4A2A797EAE001031BF /* toDoListAppApp.swift */,
 				BEBAAC4C2A797EAE001031BF /* ContentView.swift */,
+				BEBAAC5A2A798576001031BF /* NewToDoView.swift */,
+				BEBAAC582A797ED7001031BF /* ToDoItem.swift */,
 				BEBAAC4E2A797EB1001031BF /* Assets.xcassets */,
 				BEBAAC502A797EB1001031BF /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BEBAAC4D2A797EAE001031BF /* ContentView.swift in Sources */,
 				BEBAAC4B2A797EAE001031BF /* toDoListAppApp.swift in Sources */,
+				BEBAAC592A797ED7001031BF /* ToDoItem.swift in Sources */,
+				BEBAAC5B2A798576001031BF /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
